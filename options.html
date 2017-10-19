@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>options</title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+		}
+
+		#cont{
+			width: 255px;
+			min-height:70px;
+		}
+
+		#delaySucces{
+			border: none;
+			width: 30px;
+		}
+
+		#delayError{
+			border: none;
+			width: 30px;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="cont">
+		<div id="price">
+			Auto get prices: csgoTM <input type="checkbox" id="getPriceCSGOTM"> dota2TM <input type="checkbox" id="getPriceDOTA2TM">
+		</div>
+		
+		<div id="delay">
+			Get price delay(ms): Succes <input type="text" id="delaySucces"  placeholder="delay"> Error <input type="text" id="delayError" placeholder="delay">
+		</div>
+	</div>
+
+<script type="text/javascript" src="js/options.js"></script>
+
+</body>
+</html>
